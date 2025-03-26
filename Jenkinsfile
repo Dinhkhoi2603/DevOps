@@ -1,5 +1,5 @@
-def helmValues = "/var/lib/jenkins/workspace/${JOB_BASE_NAME}_${BRANCH_NAME}/app-demo/values.yaml"
-def helmChart = "/var/lib/jenkins/workspace/${JOB_BASE_NAME}_${BRANCH_NAME}/app-demo/"
+def helmValues = "/var/lib/jenkins/workspace/22127211_PDKhoi_dev_feature_01/app-demo/values.yaml"
+def helmChart = "/var/lib/jenkins/workspace/22127211_PDKhoi_dev_feature_01/app-demo/"
 
 pipeline {
     agent any
